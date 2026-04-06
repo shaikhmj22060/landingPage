@@ -1,1 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 @import "tailwindcss";
+
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme{
+  --font-jakarta:"Plus Jakarta Sans", ui-sans-serif,system-ui,sans-serif; 
+  --font-montserrat: "Montserrat", ui-sans-serif,system-ui,sans-serif;
+  --font-indie-flower: "Indie Flower", cursive, sans-serif;
+  --font-share-tech: "Share Tech", monospace, sans-serif;
+  --color-lavender:#B0ABF2;
+  --color-vibrant-coaral:#E34235;
+  --color-mint-green:#A1E19B;
+  --color-deep-black:#000000;
+  --color-pure-white:#FEFEFD;
+  --color-stickynote:#FAD4CB;
+}
